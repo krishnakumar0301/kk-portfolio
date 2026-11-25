@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D8DFF"/>
+      <stop offset="1" stop-color="#9B6BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#0E1628"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" stroke="url(#g)" stroke-width="2"/>
+  <text x="32" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#F5F7FF">KK</text>
+</svg>

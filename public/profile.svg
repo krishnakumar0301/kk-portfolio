@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="720" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172646"/>
+      <stop offset="0.52" stop-color="#0D1627"/>
+      <stop offset="1" stop-color="#090D18"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(400 330) rotate(90) scale(420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#477BFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#477BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figure" x1="250" y1="360" x2="550" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E79B8"/>
+      <stop offset="1" stop-color="#17223A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="760" x2="620" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#9B6BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" rx="48" fill="url(#bg)"/>
+  <rect width="800" height="1000" rx="48" fill="url(#glow)"/>
+  <g opacity="0.16" stroke="#9EB5D9" stroke-width="1">
+    <path d="M0 160H800M0 320H800M0 480H800M0 640H800M0 800H800"/>
+    <path d="M160 0V1000M320 0V1000M480 0V1000M640 0V1000"/>
+  </g>
+  <circle cx="400" cy="350" r="152" fill="#223255"/>
+  <circle cx="400" cy="342" r="138" fill="#3C5282"/>
+  <path d="M262 342C262 247 325 190 400 190C475 190 538 247 538 342C519 309 486 286 448 278C406 269 362 278 328 302C304 319 284 330 262 342Z" fill="#111A2C"/>
+  <path d="M400 486C266 486 160 590 160 720V1000H640V720C640 590 534 486 400 486Z" fill="url(#figure)"/>
+  <path d="M400 486L338 566L400 646L462 566L400 486Z" fill="#DCE7FA"/>
+  <path d="M400 486L338 566L400 646L462 566L400 486Z" fill="url(#accent)" opacity="0.34"/>
+  <path d="M338 566L400 646L462 566L492 604L400 700L308 604L338 566Z" fill="#0F1A2D"/>
+  <rect x="0" y="820" width="800" height="180" fill="#080D18" fill-opacity="0.62"/>
+  <text x="400" y="915" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="8" fill="#E8EEF9">KK</text>
+  <rect x="0.5" y="0.5" width="799" height="999" rx="47.5" stroke="#7EA4FF" stroke-opacity="0.34" stroke-width="1"/>
+</svg>
